@@ -3,7 +3,7 @@
 ## FlyingBytesPro: AVR MCU full Feature Programmer Software
 
 
-<img src="img/FlyingBytesPro.png" alt="Logo" width="256" align="left">
+<img src="img/FlyingBytesPro.png" alt="Logo" width="128" align="left">
 
 **FlyingBytesPro** is a modern Windows USBasp programmer for 8-bit AVR microcontrollers through classic SPI ISP and USBasp TPI. It combines a focused Qt 6 interface, a completely rewritten direct-libusb programming backend, editable Flash/EEPROM memory views, fuse and lock control, automatic programming sequences, and an AVRDUDE-style command-line programmer.
 
