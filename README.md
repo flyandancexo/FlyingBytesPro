@@ -1,6 +1,6 @@
 # FlyingBytesPro
 
-## Modern USBasp programming for classic AVR
+## Modern USBasp programming for classic AVR - GUI Avrdude Clone
 
 AVR programming should feel fast, direct, and deliberate—not buried under old workflows.
 
