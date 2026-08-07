@@ -1,6 +1,6 @@
 <!-- Copyright (C) 2026 Flyandance JZ - GPL-3.0-or-later -->
 
-## FlyingBytesPro: AVR MCU full Feature Programmer Software
+## FlyingBytesPro: AVR MCU full Feature Programmer Software GUI + CLI
 
 
 <img src="img/FlyingBytesPro.png" alt="Logo" width="128" align="left">
