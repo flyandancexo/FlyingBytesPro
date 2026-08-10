@@ -99,6 +99,18 @@ This is especially useful when comparing programming speeds, checking slow-SCK b
 
 Both interfaces talk to USBasp through libusb directly.
 
+## USBasp Driver — install WinUSB directly from FlyingBytesPro
+
+<img src="img/FlyingBytesPro_USB_Driver.png" alt="FlyingBytesPro USBasp Driver Installation" width="500" align="right">
+
+The **USBasp Driver** feature adds a built-in Windows driver installer under **Settings > Install Driver > USBasp**. It detects supported USBasp devices and installs the Microsoft **WinUSB** driver directly from FlyingBytesPro, so a separate driver utility is not needed for normal setup.
+
+FlyingBytesPro itself continues to run as a normal desktop application. When Windows requires elevated permission to install the driver, only the internal driver-install helper requests UAC elevation, installs WinUSB for the selected USBasp, and then returns control to the normal application.
+
+The required libwdi support is bundled with the project under `resources/libwdi`, so the normal Windows build uses the included driver-install resources instead of downloading or rebuilding them.
+<br clear="right">
+
+
 ## Built for real USBasp behavior
 
 FlyingBytesPro was developed around the behavior of actual USBasp hardware rather than treating the programmer as a generic black box. The backend includes queue-safe Flash transfers, EEPROM page isolation, required-only long addressing, transient USB retries, post-write ISP-session recovery, explicit readback verification, sparse-image verification, clock-aware slow-SCK handling, and support for memories extending beyond 64 KiB.

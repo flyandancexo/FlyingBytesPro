@@ -1,6 +1,6 @@
 <!-- Copyright (C) 2026 Flyandance JZ - GPL-3.0-or-later -->
 
-# FlyingBytesProCLI V3.2.28
+# FlyingBytesProCLI V3.2.29
 
 `FlyingBytesProCLI.exe` is the command-line interface for the same direct
 libusb USBasp backend used by the Qt GUI. It does not launch AVRDUDE.
