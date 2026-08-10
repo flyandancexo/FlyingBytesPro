@@ -1,0 +1,6 @@
+﻿FlyingBytesPro libwdi WinUSB bundle schema 2
+libwdi 1.5.1
+Upstream: https://github.com/pbatard/libwdi
+Pinned commit: 9b23b82a2dd1cbffc16d46c212f92c6bf8c0c602
+Source acquisition: GitHub commit archive; Git is not required.
+WinUSB: Microsoft system driver; libwdi support built from the Microsoft WDK 8 redistributables.
