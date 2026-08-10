@@ -9,7 +9,6 @@
 **FlyingBytesPro** is a modern Windows programmer for 8-bit AVR microcontrollers using a USBasp uploader. It combines a highly polished Qt 6 interface with a native direct-libusb programming backend, editable Flash and EEPROM memory views, fuse and lock controls, automatic programming tasks, verification tools, project files, and an AVRDUDE-style command-line programmer.
 
 It is designed for the whole workflow: auto identify the MCU, load or edit firmware, configure fuses, program memory, verify the result, and keep enough low-level visibility to diagnose real hardware when something does not behave as expected. Essentially, this is a high quality tool for beginners and advanced users alike, and it can be used as a referencing tool for configuring an AVR MCU.
-
 <br clear="left">
 
 <p align="center">
@@ -22,8 +21,6 @@ FlyingBytesPro is meant to feel useful immediately: choose or auto-detect an MCU
 
 The interface is organized around the jobs you actually perform rather than around protocol details. The sections below show the main workflow and provide image slots for project screenshots.
 
----
-
 ## Task — build a complete programming job and run it once
 
 <img src="img/FlyingBytesPro_Task.png" alt="FlyingBytesPro Task interface" width="466" align="right">
@@ -33,10 +30,7 @@ The **Task** view is the fastest way to turn a collection of programming steps i
 The task engine keeps the order predictable and lets each memory operation use the same device, SCK, verification, and safety rules as the rest of the application. It is useful for one-off programming, repeated bench work, and small production runs where the sequence should be explicit instead of hidden behind a single opaque "program" command.
 
 The large Start control and paired task columns keep the workflow easy to scan without turning the screen into a long list of advanced options. The workflow then can be saved into a project file, and reloaded instantly from that file.
-
 <br clear="right">
-
----
 
 ## Fuse & Lock — configure the MCU with context, not guesswork
 
@@ -47,10 +41,7 @@ The **Fuse & Lock** window gives device-specific fuse controls where decoder met
 The selected MCU is shown directly in the window title, so there is no ambiguity about which device is being configured. Read and Write actions are separated clearly, reserved bits are preserved through the device masks, and programmed fuse/lock values are verified by readback.
 
 For devices with boot-section fuse definitions, FlyingBytesPro can also interpret the bootloader configuration and connect it to the Flash memory view. This makes fuse setup and memory layout part of the same workflow instead of two unrelated tasks.
-
 <br clear="left">
-
----
 
 ## Mini Log — one compact line that grows with the job
 
@@ -63,10 +54,7 @@ A completed run can summarize Flash programming, verification, EEPROM work, fuse
 Typical result lines are intentionally concise, for example:
 
 `[13:44:06] A-Okay ☆☆☆ [Flash 512 B written + verified] [EEPROM 32 B written + verified] completed in 2.01s.`
-
 <br clear="right">
-
----
 
 ## Flash Memory — inspect, edit, read, write, and understand the layout
 
@@ -79,10 +67,7 @@ FlyingBytesPro supports **Smart Read** for fast application reads and **Full MCU
 For MCUs with supported boot-section fuse metadata, the button row shows the available bootloader sizes and start addresses. When the final fuse configuration enables the bootloader, the relevant address cells are highlighted so the boot region is visible directly in the memory map.
 
 Undo/Redo, clear/zero operations, Intel HEX and raw binary loading/saving, verification, blank checking, and sparse programming all work from the same memory model.
-
 <br clear="left">
-
----
 
 ## EEPROM Memory — edit data safely and program by real device boundaries
 
@@ -93,10 +78,7 @@ The **EEPROM** view uses the same direct, editable memory-table approach as Flas
 EEPROM programming is kept separate from Flash behavior. Writes are isolated to the selected MCU's actual EEPROM page boundaries, verification uses the same defined-byte model as the editor, and fixed slow-SCK operation is handled conservatively for USBasp hardware that needs very low programming clocks.
 
 Because Flash and EEPROM use independent buffers, files, progress, verification, and task selections, you can program either memory by itself or combine both into one automatic sequence.
-
 <br clear="right">
-
----
 
 ## Full Log — detailed visibility when hardware needs an explanation
 
@@ -107,10 +89,7 @@ The **Full Log** exposes what the programmer is actually doing. Main operations 
 Normal diagnostic text stays visually neutral and errors stand out in red. The goal is readability without hiding the low-level information that matters when a cable, target clock, USBasp firmware, fuse setting, or transfer path behaves differently from expected.
 
 This is especially useful when comparing programming speeds, checking slow-SCK behavior, confirming signature reads, or diagnosing a failure that would otherwise appear only as a generic "programming failed" message.
-
 <br clear="left">
-
----
 
 ## GUI and CLI — use whichever fits the job
 
