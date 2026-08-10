@@ -1,0 +1,58 @@
+<!-- Copyright (C) 2026 Flyandance JZ - GPL-3.0-or-later -->
+<RCC>
+  <qresource prefix="/devices">
+    <file alias="avr_devices.json">devices/avr_devices.json</file>
+    <file alias="fuse_ui.json">devices/fuse_ui.json</file>
+  </qresource>
+  <qresource prefix="/languages">
+    <file alias="zh-CN.json">languages/zh-CN.json</file>
+    <file alias="es.json">languages/es.json</file>
+    <file alias="ja.json">languages/ja.json</file>
+    <file alias="de.json">languages/de.json</file>
+    <file alias="ko.json">languages/ko.json</file>
+    <file alias="fr.json">languages/fr.json</file>
+    <file alias="vi.json">languages/vi.json</file>
+  </qresource>
+  <qresource prefix="/icons">
+    <file alias="app_16.png">icons/app_16.png</file>
+    <file alias="app_24.png">icons/app_24.png</file>
+    <file alias="app_32.png">icons/app_32.png</file>
+    <file alias="app_48.png">icons/app_48.png</file>
+    <file alias="app_64.png">icons/app_64.png</file>
+    <file alias="app_128.png">icons/app_128.png</file>
+    <file alias="app_256.png">icons/app_256.png</file>
+    <file alias="usbasp_on.png">icons/usbasp_on.png</file>
+    <file alias="usbasp_off.png">icons/usbasp_off.png</file>
+    <file alias="detect_target.png">icons/detect_target.png</file>
+    <file alias="load.png">icons/load.png</file>
+    <file alias="save.png">icons/save.png</file>
+    <file alias="load_eeprom.png">icons/load_eeprom.png</file>
+    <file alias="save_eeprom.png">icons/save_eeprom.png</file>
+    <file alias="project_load_purple.png">icons/project_load_purple.png</file>
+    <file alias="project_save_pink.png">icons/project_save_pink.png</file>
+    <file alias="write.png">icons/write.png</file>
+    <file alias="read.png">icons/read.png</file>
+    <file alias="start.png">icons/start.png</file>
+    <file alias="Button_Start.png">icons/Button_Start.png</file>
+    <file alias="project_load.png">icons/project_load.png</file>
+    <file alias="full_log.png">icons/full_log.png</file>
+    <file alias="about.png">icons/about.png</file>
+    <file alias="settings.png">icons/settings.png</file>
+    <file alias="chevron_down.png">icons/chevron_down.png</file>
+    <file alias="lock_gold.png">icons/lock_gold.png</file>
+    <file alias="FD-Logo.png">icons/FD-Logo.png</file>
+    <file alias="Pigeon_Coffee.png">icons/Pigeon_Coffee.png</file>
+    <file alias="MCU_Search_B.png">icons/MCU_Search_B.png</file>
+    <file alias="MCU_Search.png">icons/MCU_Search.png</file>
+    <file alias="Mem-Flash_B.png">icons/Mem-Flash_B.png</file>
+    <file alias="Mem-Flash_B_off.png">icons/Mem-Flash_B_off.png</file>
+    <file alias="Mem-Flash_B_light_only.png">icons/Mem-Flash_B_light_only.png</file>
+    <file alias="Mem-EEPROM_B.png">icons/Mem-EEPROM_B.png</file>
+    <file alias="Mem-EEPROM_B_off.png">icons/Mem-EEPROM_B_off.png</file>
+    <file alias="Mem-EEPROM_B_light_only.png">icons/Mem-EEPROM_B_light_only.png</file>
+    <file alias="clock_sck.png">icons/clock_sck.png</file>
+    <file alias="Fuse_High.png">icons/Fuse_High.png</file>
+    <file alias="Fuse_Low.png">icons/Fuse_Low.png</file>
+    <file alias="Fuse_Lock.png">icons/Fuse_Lock.png</file>
+  </qresource>
+</RCC>

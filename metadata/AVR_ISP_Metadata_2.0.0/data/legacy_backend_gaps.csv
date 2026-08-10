@@ -1,0 +1,25 @@
+name,signature,class,flash_size,flash_page_size,eeprom_size,eeprom_page_size,blockers,metadata_status
+AT90S1200,1E9001,avr,1024,,64,,current backend lacks legacy byte-write flash support | current backend lacks byte-write EEPROM metadata,avrdude-selected+progisp-agrees
+AT90S2313,1E9101,avr,2048,,128,,current backend lacks legacy byte-write flash support | current backend lacks byte-write EEPROM metadata,avrdude-selected+progisp-agrees
+AT90S2323,1E9102,avr,2048,,128,,current backend lacks legacy byte-write flash support | current backend lacks byte-write EEPROM metadata,avrdude-selected+progisp-agrees
+AT90S2333,1E9105,avr,2048,,128,,current backend lacks legacy byte-write flash support | current backend lacks byte-write EEPROM metadata,avrdude-selected
+AT90S2343,1E9103,avr,2048,,128,,current backend lacks legacy byte-write flash support | current backend lacks byte-write EEPROM metadata,avrdude-selected+progisp-agrees
+AT90S4414,1E9201,avr,4096,,256,,current backend lacks legacy byte-write flash support | current backend lacks byte-write EEPROM metadata,avrdude-selected+progisp-disagrees
+AT90S4433,1E9203,avr,4096,,256,,current backend lacks legacy byte-write flash support | current backend lacks byte-write EEPROM metadata,avrdude-selected+progisp-agrees
+AT90S4434,1E9202,avr,4096,,256,,current backend lacks legacy byte-write flash support | current backend lacks byte-write EEPROM metadata,avrdude-selected+progisp-agrees
+AT90S8515,1E9301,avr,8192,,512,,current backend lacks legacy byte-write flash support | current backend lacks byte-write EEPROM metadata,avrdude-selected+progisp-agrees
+AT90S8535,1E9303,avr,8192,,512,,current backend lacks legacy byte-write flash support | current backend lacks byte-write EEPROM metadata,avrdude-selected+progisp-agrees
+ATmega103,1E9701,avr,131072,256,4096,,current backend lacks byte-write EEPROM metadata,avrdude-selected+progisp-disagrees
+ATmega161,1E9401,avr,16384,128,512,,current backend lacks byte-write EEPROM metadata,avrdude-selected+progisp-disagrees
+ATmega163,1E9402,avr,16384,128,512,,current backend lacks byte-write EEPROM metadata,avrdude-selected+progisp-disagrees
+ATmega8515,1E9306,avr,8192,64,512,,current backend lacks byte-write EEPROM metadata,avrdude-selected+progisp-disagrees
+ATmega8535,1E9308,avr,8192,64,512,,current backend lacks byte-write EEPROM metadata,avrdude-selected+progisp-disagrees
+ATtiny12,1E9005,avr,1024,,64,,current backend lacks legacy byte-write flash support | current backend lacks byte-write EEPROM metadata,avrdude-selected+progisp-agrees
+ATtiny15,1E9006,avr,1024,,64,,current backend lacks legacy byte-write flash support | current backend lacks byte-write EEPROM metadata,avrdude-selected+progisp-agrees
+ATtiny22,1E9106,avr,2048,,128,,current backend lacks legacy byte-write flash support | current backend lacks byte-write EEPROM metadata,avrdude-selected+progisp-agrees
+ATtiny26,1E9109,avr,2048,32,128,,current backend lacks byte-write EEPROM metadata,avrdude-selected+progisp-disagrees
+LGT8F168P,1E940B,avr-compatible,16384,128,512,4,not an official Microchip/Atmel AVR record,avrdude-selected
+LGT8F328P,1E950F,avr-compatible,32768,128,1024,4,not an official Microchip/Atmel AVR record,avrdude-selected
+LGT8F88P,1E930F,avr-compatible,8192,64,512,4,not an official Microchip/Atmel AVR record,avrdude-selected
+AT89S51,1E5106,non-avr-spi-programmable,4096,,0,,not an official Microchip/Atmel AVR record | current backend lacks legacy byte-write flash support,avrdude-selected
+AT89S52,1E5206,non-avr-spi-programmable,8192,,0,,not an official Microchip/Atmel AVR record | current backend lacks legacy byte-write flash support,avrdude-selected

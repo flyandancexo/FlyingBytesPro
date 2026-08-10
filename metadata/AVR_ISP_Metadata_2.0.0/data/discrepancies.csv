@@ -1,0 +1,38 @@
+name,signature,severity,issue
+AT90CAN32,1E9581,heuristic-exception,"page-size heuristic guessed 128, sourced page size is 256"
+AT90PWM216,1E9483,advisory-source-disagreement,flashPageSize disagrees with ProgISP
+AT90PWM316,1E9483,advisory-source-disagreement,flashPageSize disagrees with ProgISP
+AT90S4414,1E9201,advisory-source-disagreement,flashSize disagrees with ProgISP
+AT90S4414,1E9201,advisory-source-disagreement,eepromSize disagrees with ProgISP
+AT90USB82,1E9382,heuristic-exception,"page-size heuristic guessed 64, sourced page size is 128"
+ATA6616C,1E9387,heuristic-exception,"page-size heuristic guessed 64, sourced page size is 128"
+ATmega103,1E9701,advisory-source-disagreement,eepromPageSize disagrees with ProgISP
+ATmega161,1E9401,advisory-source-disagreement,eepromPageSize disagrees with ProgISP
+ATmega163,1E9402,advisory-source-disagreement,eepromPageSize disagrees with ProgISP
+ATmega16HVA,1E940C,advisory-source-disagreement,eepromSize disagrees with ProgISP
+ATmega2560,1E9801,heuristic-exception,"page-size heuristic guessed 64, sourced page size is 256"
+ATmega2561,1E9802,heuristic-exception,"page-size heuristic guessed 64, sourced page size is 256"
+ATmega2564RFR2,1EA803,heuristic-exception,"page-size heuristic guessed 64, sourced page size is 256"
+ATmega256RFR2,1EA802,heuristic-exception,"page-size heuristic guessed 64, sourced page size is 256"
+ATmega323,1E9501,advisory-source-disagreement,EEPROM transfer grouping: ProgISP=4 bytes; official serial programming algorithm writes one byte at a time. Safe write granularity 1 selected.
+ATmega325,1E9505,advisory-source-disagreement,eepromSize disagrees with ProgISP
+ATmega325A,1E9505,advisory-source-disagreement,eepromSize disagrees with ProgISP
+ATmega325P,1E950D,advisory-source-disagreement,eepromSize disagrees with ProgISP
+ATmega328P,1E950F,advisory-source-disagreement,eepromSize disagrees with ProgISP
+ATmega644,1E9609,advisory-source-disagreement,flashPageSize disagrees with ProgISP
+ATmega644,1E9609,advisory-source-disagreement,eepromPageSize disagrees with ProgISP
+ATmega644A,1E9609,advisory-source-disagreement,flashPageSize disagrees with ProgISP
+ATmega644A,1E9609,advisory-source-disagreement,eepromPageSize disagrees with ProgISP
+ATmega64HVE2,1E9610,heuristic-exception,"page-size heuristic guessed 256, sourced page size is 128"
+ATmega8515,1E9306,advisory-source-disagreement,eepromPageSize disagrees with ProgISP
+ATmega8535,1E9308,advisory-source-disagreement,eepromPageSize disagrees with ProgISP
+ATmega8HVA,1E9310,heuristic-exception,"page-size heuristic guessed 64, sourced page size is 128"
+ATmega8U2,1E9389,heuristic-exception,"page-size heuristic guessed 64, sourced page size is 128"
+ATtiny1634,1E9412,heuristic-exception,"page-size heuristic guessed 128, sourced page size is 32"
+ATtiny1634R,1E9412,heuristic-exception,"page-size heuristic guessed 128, sourced page size is 32"
+ATtiny26,1E9109,advisory-source-disagreement,eepromPageSize disagrees with ProgISP
+ATtiny441,1E9215,heuristic-exception,"page-size heuristic guessed 64, sourced page size is 16"
+ATtiny841,1E9315,heuristic-exception,"page-size heuristic guessed 64, sourced page size is 16"
+ATtiny87,1E9387,heuristic-exception,"page-size heuristic guessed 64, sourced page size is 128"
+AT89S51,1E5106,advisory-source-disagreement,flashSize disagrees with signature-capacity heuristic
+AT89S52,1E5206,advisory-source-disagreement,flashSize disagrees with signature-capacity heuristic

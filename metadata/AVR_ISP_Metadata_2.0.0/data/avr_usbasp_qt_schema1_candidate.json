@@ -1,0 +1,6916 @@
+{
+  "schemaVersion": 1,
+  "generatedFrom": "avr_isp_devices.json",
+  "devices": [
+    {
+      "id": "at90can128",
+      "name": "AT90CAN128",
+      "signature": "1E9781",
+      "flashSize": 131072,
+      "flashPageSize": 256,
+      "eepromSize": 4096,
+      "eepromPageSize": 8,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        15
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        15
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "at90can32",
+      "name": "AT90CAN32",
+      "signature": "1E9581",
+      "flashSize": 32768,
+      "flashPageSize": 256,
+      "eepromSize": 1024,
+      "eepromPageSize": 8,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        15
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        15
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "at90can64",
+      "name": "AT90CAN64",
+      "signature": "1E9681",
+      "flashSize": 65536,
+      "flashPageSize": 256,
+      "eepromSize": 2048,
+      "eepromPageSize": 8,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        15
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        15
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "at90pwm1",
+      "name": "AT90PWM1",
+      "signature": "1E9383",
+      "flashSize": 8192,
+      "flashPageSize": 64,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255
+      ],
+      "fuseProgramMasks": [
+        255,
+        255
+      ],
+      "lockReadCommand": "580000C0",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "at90pwm161",
+      "name": "AT90PWM161",
+      "signature": "1E948B",
+      "flashSize": 16384,
+      "flashPageSize": 128,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        255
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        255
+      ],
+      "lockReadCommand": "580000C0",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "at90pwm2",
+      "name": "AT90PWM2",
+      "signature": "1E9381",
+      "flashSize": 8192,
+      "flashPageSize": 64,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 5,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        247
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        247
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "at90pwm216",
+      "name": "AT90PWM216",
+      "signature": "1E9483",
+      "flashSize": 16384,
+      "flashPageSize": 128,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 5,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        247
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        247
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "at90pwm2b",
+      "name": "AT90PWM2B",
+      "signature": "1E9383",
+      "flashSize": 8192,
+      "flashPageSize": 64,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 5,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        247
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        247
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "at90pwm3",
+      "name": "AT90PWM3",
+      "signature": "1E9381",
+      "flashSize": 8192,
+      "flashPageSize": 64,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 5,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        247
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        247
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "at90pwm316",
+      "name": "AT90PWM316",
+      "signature": "1E9483",
+      "flashSize": 16384,
+      "flashPageSize": 128,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 5,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        247
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        247
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "at90pwm3b",
+      "name": "AT90PWM3B",
+      "signature": "1E9383",
+      "flashSize": 8192,
+      "flashPageSize": 64,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 5,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        247
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        247
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "at90pwm81",
+      "name": "AT90PWM81",
+      "signature": "1E9388",
+      "flashSize": 8192,
+      "flashPageSize": 64,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        255
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        255
+      ],
+      "lockReadCommand": "580000C0",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "at90usb1286",
+      "name": "AT90USB1286",
+      "signature": "1E9782",
+      "flashSize": 131072,
+      "flashPageSize": 256,
+      "eepromSize": 4096,
+      "eepromPageSize": 8,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        15
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        15
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "at90usb1287",
+      "name": "AT90USB1287",
+      "signature": "1E9782",
+      "flashSize": 131072,
+      "flashPageSize": 256,
+      "eepromSize": 4096,
+      "eepromPageSize": 8,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        15
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        15
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "at90usb162",
+      "name": "AT90USB162",
+      "signature": "1E9482",
+      "flashSize": 16384,
+      "flashPageSize": 128,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        15
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        15
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "at90usb646",
+      "name": "AT90USB646",
+      "signature": "1E9682",
+      "flashSize": 65536,
+      "flashPageSize": 256,
+      "eepromSize": 2048,
+      "eepromPageSize": 8,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        15
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        15
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "at90usb647",
+      "name": "AT90USB647",
+      "signature": "1E9682",
+      "flashSize": 65536,
+      "flashPageSize": 256,
+      "eepromSize": 2048,
+      "eepromPageSize": 8,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        15
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        15
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "at90usb82",
+      "name": "AT90USB82",
+      "signature": "1E9382",
+      "flashSize": 8192,
+      "flashPageSize": 128,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        15
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        15
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "ata5505",
+      "name": "ATA5505",
+      "signature": "1E9487",
+      "flashSize": 16384,
+      "flashPageSize": 128,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 4,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "500800FE"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA400FE"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        1
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        1
+      ],
+      "lockReadCommand": "580000FC",
+      "lockWriteCommand": "ACE000FC",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 3
+    },
+    {
+      "id": "ata6612c",
+      "name": "ATA6612C",
+      "signature": "1E930A",
+      "flashSize": 8192,
+      "flashPageSize": 64,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 4,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "500800F8"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA400F8"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "580000C0",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "ata6613c",
+      "name": "ATA6613C",
+      "signature": "1E9406",
+      "flashSize": 16384,
+      "flashPageSize": 128,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "500800F8"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA400F8"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "580000C0",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "ata6614q",
+      "name": "ATA6614Q",
+      "signature": "1E950F",
+      "flashSize": 32768,
+      "flashPageSize": 128,
+      "eepromSize": 1024,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "500800F8"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA400F8"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "580000C0",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "ata6616c",
+      "name": "ATA6616C",
+      "signature": "1E9387",
+      "flashSize": 8192,
+      "flashPageSize": 128,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 4,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "500800FE"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA400FE"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        1
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        1
+      ],
+      "lockReadCommand": "580000FC",
+      "lockWriteCommand": "ACE000FC",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 3
+    },
+    {
+      "id": "ata6617c",
+      "name": "ATA6617C",
+      "signature": "1E9487",
+      "flashSize": 16384,
+      "flashPageSize": 128,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 4,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "500800FE"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA400FE"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        1
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        1
+      ],
+      "lockReadCommand": "580000FC",
+      "lockWriteCommand": "ACE000FC",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 3
+    },
+    {
+      "id": "ata664251",
+      "name": "ATA664251",
+      "signature": "1E9487",
+      "flashSize": 16384,
+      "flashPageSize": 128,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 4,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "500800FE"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA400FE"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        1
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        1
+      ],
+      "lockReadCommand": "580000FC",
+      "lockWriteCommand": "ACE000FC",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 3
+    },
+    {
+      "id": "atmega128",
+      "name": "ATmega128",
+      "signature": "1E9702",
+      "flashSize": 131072,
+      "flashPageSize": 256,
+      "eepromSize": 4096,
+      "eepromPageSize": 8,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 10,
+      "chipEraseDelayMs": 10,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        3
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        3
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega1280",
+      "name": "ATmega1280",
+      "signature": "1E9703",
+      "flashSize": 131072,
+      "flashPageSize": 256,
+      "eepromSize": 4096,
+      "eepromPageSize": 8,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega1281",
+      "name": "ATmega1281",
+      "signature": "1E9704",
+      "flashSize": 131072,
+      "flashPageSize": 256,
+      "eepromSize": 4096,
+      "eepromPageSize": 8,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega1284",
+      "name": "ATmega1284",
+      "signature": "1E9706",
+      "flashSize": 131072,
+      "flashPageSize": 256,
+      "eepromSize": 4096,
+      "eepromPageSize": 8,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 55,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA400F8"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega1284p",
+      "name": "ATmega1284P",
+      "signature": "1E9705",
+      "flashSize": 131072,
+      "flashPageSize": 256,
+      "eepromSize": 4096,
+      "eepromPageSize": 8,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 55,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA400F8"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega1284rfr2",
+      "name": "ATmega1284RFR2",
+      "signature": "1EA703",
+      "flashSize": 131072,
+      "flashPageSize": 256,
+      "eepromSize": 4096,
+      "eepromPageSize": 8,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 13,
+      "chipEraseDelayMs": 19,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega128a",
+      "name": "ATmega128A",
+      "signature": "1E9702",
+      "flashSize": 131072,
+      "flashPageSize": 256,
+      "eepromSize": 4096,
+      "eepromPageSize": 8,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 10,
+      "chipEraseDelayMs": 10,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        3
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        3
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega128rfa1",
+      "name": "ATmega128RFA1",
+      "signature": "1EA701",
+      "flashSize": 131072,
+      "flashPageSize": 256,
+      "eepromSize": 4096,
+      "eepromPageSize": 8,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 13,
+      "chipEraseDelayMs": 19,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega128rfr2",
+      "name": "ATmega128RFR2",
+      "signature": "1EA702",
+      "flashSize": 131072,
+      "flashPageSize": 256,
+      "eepromSize": 4096,
+      "eepromPageSize": 8,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 13,
+      "chipEraseDelayMs": 19,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega16",
+      "name": "ATmega16",
+      "signature": "1E9403",
+      "flashSize": 16384,
+      "flashPageSize": 128,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255
+      ],
+      "fuseProgramMasks": [
+        255,
+        255
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega162",
+      "name": "ATmega162",
+      "signature": "1E9404",
+      "flashSize": 16384,
+      "flashPageSize": 128,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 16,
+      "lockWriteDelayMs": 16,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255
+      ],
+      "fuseProgramMasks": [
+        255,
+        255
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega164a",
+      "name": "ATmega164A",
+      "signature": "1E940F",
+      "flashSize": 16384,
+      "flashPageSize": 128,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 55,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA400F8"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega164p",
+      "name": "ATmega164P",
+      "signature": "1E940A",
+      "flashSize": 16384,
+      "flashPageSize": 128,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 55,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA400F8"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega164pa",
+      "name": "ATmega164PA",
+      "signature": "1E940A",
+      "flashSize": 16384,
+      "flashPageSize": 128,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 55,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA400F8"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega165",
+      "name": "ATmega165",
+      "signature": "1E9407",
+      "flashSize": 16384,
+      "flashPageSize": 128,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        15
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        15
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega165a",
+      "name": "ATmega165A",
+      "signature": "1E9410",
+      "flashSize": 16384,
+      "flashPageSize": 128,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        15
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        15
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega165p",
+      "name": "ATmega165P",
+      "signature": "1E9407",
+      "flashSize": 16384,
+      "flashPageSize": 128,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        15
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        15
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega165pa",
+      "name": "ATmega165PA",
+      "signature": "1E9407",
+      "flashSize": 16384,
+      "flashPageSize": 128,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        15
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        15
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega168",
+      "name": "ATmega168",
+      "signature": "1E9406",
+      "flashSize": 16384,
+      "flashPageSize": 128,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega168a",
+      "name": "ATmega168A",
+      "signature": "1E9406",
+      "flashSize": 16384,
+      "flashPageSize": 128,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega168p",
+      "name": "ATmega168P",
+      "signature": "1E940B",
+      "flashSize": 16384,
+      "flashPageSize": 128,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega168pa",
+      "name": "ATmega168PA",
+      "signature": "1E940B",
+      "flashSize": 16384,
+      "flashPageSize": 128,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega168pb",
+      "name": "ATmega168PB",
+      "signature": "1E9415",
+      "flashSize": 16384,
+      "flashPageSize": 128,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 11,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega169",
+      "name": "ATmega169",
+      "signature": "1E9405",
+      "flashSize": 16384,
+      "flashPageSize": 128,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        15
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        15
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega169a",
+      "name": "ATmega169A",
+      "signature": "1E9411",
+      "flashSize": 16384,
+      "flashPageSize": 128,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        15
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        15
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega169p",
+      "name": "ATmega169P",
+      "signature": "1E9405",
+      "flashSize": 16384,
+      "flashPageSize": 128,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        15
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        15
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega169pa",
+      "name": "ATmega169PA",
+      "signature": "1E9405",
+      "flashSize": 16384,
+      "flashPageSize": 128,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        15
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        15
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega16a",
+      "name": "ATmega16A",
+      "signature": "1E9403",
+      "flashSize": 16384,
+      "flashPageSize": 128,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255
+      ],
+      "fuseProgramMasks": [
+        255,
+        255
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega16hva",
+      "name": "ATmega16HVA",
+      "signature": "1E940C",
+      "flashSize": 16384,
+      "flashPageSize": 128,
+      "eepromSize": 256,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 4,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255
+      ],
+      "fuseProgramMasks": [
+        255
+      ],
+      "lockReadCommand": "580000FC",
+      "lockWriteCommand": "ACE000FC",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 3
+    },
+    {
+      "id": "atmega16hvb",
+      "name": "ATmega16HVB",
+      "signature": "1E940D",
+      "flashSize": 16384,
+      "flashPageSize": 128,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 4,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "580800E0"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA800E0"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        31
+      ],
+      "fuseProgramMasks": [
+        255,
+        31
+      ],
+      "lockReadCommand": "580000C0",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega16hvbrevb",
+      "name": "ATmega16HVBrevB",
+      "signature": "1E940D",
+      "flashSize": 16384,
+      "flashPageSize": 128,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 4,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "580800E0"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA800E0"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        31
+      ],
+      "fuseProgramMasks": [
+        255,
+        31
+      ],
+      "lockReadCommand": "580000C0",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega16m1",
+      "name": "ATmega16M1",
+      "signature": "1E9484",
+      "flashSize": 16384,
+      "flashPageSize": 128,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "500800C0"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA400C0"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        63
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        63
+      ],
+      "lockReadCommand": "580000C0",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega16u2",
+      "name": "ATmega16U2",
+      "signature": "1E9489",
+      "flashSize": 16384,
+      "flashPageSize": 128,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        15
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        15
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega16u4",
+      "name": "ATmega16U4",
+      "signature": "1E9488",
+      "flashSize": 16384,
+      "flashPageSize": 128,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA400F0"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        15
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        15
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega2560",
+      "name": "ATmega2560",
+      "signature": "1E9801",
+      "flashSize": 262144,
+      "flashPageSize": 256,
+      "eepromSize": 4096,
+      "eepromPageSize": 8,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega2561",
+      "name": "ATmega2561",
+      "signature": "1E9802",
+      "flashSize": 262144,
+      "flashPageSize": 256,
+      "eepromSize": 4096,
+      "eepromPageSize": 8,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega2564rfr2",
+      "name": "ATmega2564RFR2",
+      "signature": "1EA803",
+      "flashSize": 262144,
+      "flashPageSize": 256,
+      "eepromSize": 8192,
+      "eepromPageSize": 8,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 13,
+      "chipEraseDelayMs": 19,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega256rfr2",
+      "name": "ATmega256RFR2",
+      "signature": "1EA802",
+      "flashSize": 262144,
+      "flashPageSize": 256,
+      "eepromSize": 8192,
+      "eepromPageSize": 8,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 13,
+      "chipEraseDelayMs": 19,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega32",
+      "name": "ATmega32",
+      "signature": "1E9502",
+      "flashSize": 32768,
+      "flashPageSize": 128,
+      "eepromSize": 1024,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255
+      ],
+      "fuseProgramMasks": [
+        255,
+        255
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega323",
+      "name": "ATmega323",
+      "signature": "1E9501",
+      "flashSize": 32768,
+      "flashPageSize": 128,
+      "eepromSize": 1024,
+      "eepromPageSize": 1,
+      "flashWriteDelayMs": 16,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 32,
+      "fuseWriteDelayMs": 10,
+      "lockWriteDelayMs": 2,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [],
+      "fuseWriteCommands": [],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [],
+      "fuseProgramMasks": [],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE00000",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega324a",
+      "name": "ATmega324A",
+      "signature": "1E9515",
+      "flashSize": 32768,
+      "flashPageSize": 128,
+      "eepromSize": 1024,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 55,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA400F8"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega324p",
+      "name": "ATmega324P",
+      "signature": "1E9508",
+      "flashSize": 32768,
+      "flashPageSize": 128,
+      "eepromSize": 1024,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 55,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA400F8"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega324pa",
+      "name": "ATmega324PA",
+      "signature": "1E9511",
+      "flashSize": 32768,
+      "flashPageSize": 128,
+      "eepromSize": 1024,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 55,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA400F8"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega324pb",
+      "name": "ATmega324PB",
+      "signature": "1E9517",
+      "flashSize": 32768,
+      "flashPageSize": 128,
+      "eepromSize": 1024,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 55,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA400F0"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        15
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        15
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega325",
+      "name": "ATmega325",
+      "signature": "1E9505",
+      "flashSize": 32768,
+      "flashPageSize": 128,
+      "eepromSize": 1024,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA400F8"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega3250",
+      "name": "ATmega3250",
+      "signature": "1E9506",
+      "flashSize": 32768,
+      "flashPageSize": 128,
+      "eepromSize": 1024,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA400F8"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega3250a",
+      "name": "ATmega3250A",
+      "signature": "1E9506",
+      "flashSize": 32768,
+      "flashPageSize": 128,
+      "eepromSize": 1024,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA400F8"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega3250p",
+      "name": "ATmega3250P",
+      "signature": "1E950E",
+      "flashSize": 32768,
+      "flashPageSize": 128,
+      "eepromSize": 1024,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA400F8"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega3250pa",
+      "name": "ATmega3250PA",
+      "signature": "1E950E",
+      "flashSize": 32768,
+      "flashPageSize": 128,
+      "eepromSize": 1024,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA400F8"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega325a",
+      "name": "ATmega325A",
+      "signature": "1E9505",
+      "flashSize": 32768,
+      "flashPageSize": 128,
+      "eepromSize": 1024,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA400F8"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega325p",
+      "name": "ATmega325P",
+      "signature": "1E950D",
+      "flashSize": 32768,
+      "flashPageSize": 128,
+      "eepromSize": 1024,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA400F8"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega325pa",
+      "name": "ATmega325PA",
+      "signature": "1E950D",
+      "flashSize": 32768,
+      "flashPageSize": 128,
+      "eepromSize": 1024,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA400F8"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega328",
+      "name": "ATmega328",
+      "signature": "1E9514",
+      "flashSize": 32768,
+      "flashPageSize": 128,
+      "eepromSize": 1024,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega328p",
+      "name": "ATmega328P",
+      "signature": "1E950F",
+      "flashSize": 32768,
+      "flashPageSize": 128,
+      "eepromSize": 1024,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega328pb",
+      "name": "ATmega328PB",
+      "signature": "1E9516",
+      "flashSize": 32768,
+      "flashPageSize": 128,
+      "eepromSize": 1024,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 11,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        15
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        15
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega329",
+      "name": "ATmega329",
+      "signature": "1E9503",
+      "flashSize": 32768,
+      "flashPageSize": 128,
+      "eepromSize": 1024,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega3290",
+      "name": "ATmega3290",
+      "signature": "1E9504",
+      "flashSize": 32768,
+      "flashPageSize": 128,
+      "eepromSize": 1024,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega3290a",
+      "name": "ATmega3290A",
+      "signature": "1E9504",
+      "flashSize": 32768,
+      "flashPageSize": 128,
+      "eepromSize": 1024,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega3290p",
+      "name": "ATmega3290P",
+      "signature": "1E950C",
+      "flashSize": 32768,
+      "flashPageSize": 128,
+      "eepromSize": 1024,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega3290pa",
+      "name": "ATmega3290PA",
+      "signature": "1E950C",
+      "flashSize": 32768,
+      "flashPageSize": 128,
+      "eepromSize": 1024,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega329a",
+      "name": "ATmega329A",
+      "signature": "1E9503",
+      "flashSize": 32768,
+      "flashPageSize": 128,
+      "eepromSize": 1024,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega329p",
+      "name": "ATmega329P",
+      "signature": "1E950B",
+      "flashSize": 32768,
+      "flashPageSize": 128,
+      "eepromSize": 1024,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega329pa",
+      "name": "ATmega329PA",
+      "signature": "1E950B",
+      "flashSize": 32768,
+      "flashPageSize": 128,
+      "eepromSize": 1024,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega32a",
+      "name": "ATmega32A",
+      "signature": "1E9502",
+      "flashSize": 32768,
+      "flashPageSize": 128,
+      "eepromSize": 1024,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255
+      ],
+      "fuseProgramMasks": [
+        255,
+        255
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega32c1",
+      "name": "ATmega32C1",
+      "signature": "1E9586",
+      "flashSize": 32768,
+      "flashPageSize": 128,
+      "eepromSize": 1024,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "500800C0"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA400C0"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        63
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        63
+      ],
+      "lockReadCommand": "580000C0",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega32hvb",
+      "name": "ATmega32HVB",
+      "signature": "1E9510",
+      "flashSize": 32768,
+      "flashPageSize": 128,
+      "eepromSize": 1024,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 4,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "580800E0"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA800E0"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        31
+      ],
+      "fuseProgramMasks": [
+        255,
+        31
+      ],
+      "lockReadCommand": "580000C0",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega32hvbrevb",
+      "name": "ATmega32HVBrevB",
+      "signature": "1E9510",
+      "flashSize": 32768,
+      "flashPageSize": 128,
+      "eepromSize": 1024,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 4,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "580800E0"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA800E0"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        31
+      ],
+      "fuseProgramMasks": [
+        255,
+        31
+      ],
+      "lockReadCommand": "580000C0",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega32hve2",
+      "name": "ATmega32HVE2",
+      "signature": "1E9513",
+      "flashSize": 32768,
+      "flashPageSize": 128,
+      "eepromSize": 1024,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 4,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "580800F0"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA800F0"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        15
+      ],
+      "fuseProgramMasks": [
+        255,
+        15
+      ],
+      "lockReadCommand": "580000C0",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega32m1",
+      "name": "ATmega32M1",
+      "signature": "1E9584",
+      "flashSize": 32768,
+      "flashPageSize": 128,
+      "eepromSize": 1024,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "500800C0"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA400C0"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        63
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        63
+      ],
+      "lockReadCommand": "580000C0",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega32u2",
+      "name": "ATmega32U2",
+      "signature": "1E958A",
+      "flashSize": 32768,
+      "flashPageSize": 128,
+      "eepromSize": 1024,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        15
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        15
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega32u4",
+      "name": "ATmega32U4",
+      "signature": "1E9587",
+      "flashSize": 32768,
+      "flashPageSize": 128,
+      "eepromSize": 1024,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA400F0"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        15
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        15
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega48",
+      "name": "ATmega48",
+      "signature": "1E9205",
+      "flashSize": 4096,
+      "flashPageSize": 64,
+      "eepromSize": 256,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 45,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        1
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        1
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 3
+    },
+    {
+      "id": "atmega48a",
+      "name": "ATmega48A",
+      "signature": "1E9205",
+      "flashSize": 4096,
+      "flashPageSize": 64,
+      "eepromSize": 256,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 45,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        1
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        1
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 3
+    },
+    {
+      "id": "atmega48p",
+      "name": "ATmega48P",
+      "signature": "1E920A",
+      "flashSize": 4096,
+      "flashPageSize": 64,
+      "eepromSize": 256,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 45,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        1
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        1
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 3
+    },
+    {
+      "id": "atmega48pa",
+      "name": "ATmega48PA",
+      "signature": "1E920A",
+      "flashSize": 4096,
+      "flashPageSize": 64,
+      "eepromSize": 256,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 45,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        1
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        1
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 3
+    },
+    {
+      "id": "atmega48pb",
+      "name": "ATmega48PB",
+      "signature": "1E9210",
+      "flashSize": 4096,
+      "flashPageSize": 64,
+      "eepromSize": 256,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 11,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        1
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        1
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 3
+    },
+    {
+      "id": "atmega64",
+      "name": "ATmega64",
+      "signature": "1E9602",
+      "flashSize": 65536,
+      "flashPageSize": 256,
+      "eepromSize": 2048,
+      "eepromPageSize": 8,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        3
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        3
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega640",
+      "name": "ATmega640",
+      "signature": "1E9608",
+      "flashSize": 65536,
+      "flashPageSize": 256,
+      "eepromSize": 4096,
+      "eepromPageSize": 8,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega644",
+      "name": "ATmega644",
+      "signature": "1E9609",
+      "flashSize": 65536,
+      "flashPageSize": 256,
+      "eepromSize": 2048,
+      "eepromPageSize": 8,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 55,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA400F8"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega644a",
+      "name": "ATmega644A",
+      "signature": "1E9609",
+      "flashSize": 65536,
+      "flashPageSize": 256,
+      "eepromSize": 2048,
+      "eepromPageSize": 8,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 55,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA400F8"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega644p",
+      "name": "ATmega644P",
+      "signature": "1E960A",
+      "flashSize": 65536,
+      "flashPageSize": 256,
+      "eepromSize": 2048,
+      "eepromPageSize": 8,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 55,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA400F8"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega644pa",
+      "name": "ATmega644PA",
+      "signature": "1E960A",
+      "flashSize": 65536,
+      "flashPageSize": 256,
+      "eepromSize": 2048,
+      "eepromPageSize": 8,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 55,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA400F8"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega644rfr2",
+      "name": "ATmega644RFR2",
+      "signature": "1EA603",
+      "flashSize": 65536,
+      "flashPageSize": 256,
+      "eepromSize": 2048,
+      "eepromPageSize": 8,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 13,
+      "chipEraseDelayMs": 19,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega645",
+      "name": "ATmega645",
+      "signature": "1E9605",
+      "flashSize": 65536,
+      "flashPageSize": 256,
+      "eepromSize": 2048,
+      "eepromPageSize": 8,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA400F8"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega6450",
+      "name": "ATmega6450",
+      "signature": "1E9606",
+      "flashSize": 65536,
+      "flashPageSize": 256,
+      "eepromSize": 2048,
+      "eepromPageSize": 8,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA400F8"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega6450a",
+      "name": "ATmega6450A",
+      "signature": "1E9606",
+      "flashSize": 65536,
+      "flashPageSize": 256,
+      "eepromSize": 2048,
+      "eepromPageSize": 8,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA400F8"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega6450p",
+      "name": "ATmega6450P",
+      "signature": "1E960E",
+      "flashSize": 65536,
+      "flashPageSize": 256,
+      "eepromSize": 2048,
+      "eepromPageSize": 8,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA400F8"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega645a",
+      "name": "ATmega645A",
+      "signature": "1E9605",
+      "flashSize": 65536,
+      "flashPageSize": 256,
+      "eepromSize": 2048,
+      "eepromPageSize": 8,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA400F8"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega645p",
+      "name": "ATmega645P",
+      "signature": "1E960D",
+      "flashSize": 65536,
+      "flashPageSize": 256,
+      "eepromSize": 2048,
+      "eepromPageSize": 8,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA400F8"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega649",
+      "name": "ATmega649",
+      "signature": "1E9603",
+      "flashSize": 65536,
+      "flashPageSize": 256,
+      "eepromSize": 2048,
+      "eepromPageSize": 8,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega6490",
+      "name": "ATmega6490",
+      "signature": "1E9604",
+      "flashSize": 65536,
+      "flashPageSize": 256,
+      "eepromSize": 2048,
+      "eepromPageSize": 8,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega6490a",
+      "name": "ATmega6490A",
+      "signature": "1E9604",
+      "flashSize": 65536,
+      "flashPageSize": 256,
+      "eepromSize": 2048,
+      "eepromPageSize": 8,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega6490p",
+      "name": "ATmega6490P",
+      "signature": "1E960C",
+      "flashSize": 65536,
+      "flashPageSize": 256,
+      "eepromSize": 2048,
+      "eepromPageSize": 8,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega649a",
+      "name": "ATmega649A",
+      "signature": "1E9603",
+      "flashSize": 65536,
+      "flashPageSize": 256,
+      "eepromSize": 2048,
+      "eepromPageSize": 8,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega649p",
+      "name": "ATmega649P",
+      "signature": "1E960B",
+      "flashSize": 65536,
+      "flashPageSize": 256,
+      "eepromSize": 2048,
+      "eepromPageSize": 8,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega64a",
+      "name": "ATmega64A",
+      "signature": "1E9602",
+      "flashSize": 65536,
+      "flashPageSize": 256,
+      "eepromSize": 2048,
+      "eepromPageSize": 8,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        3
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        3
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega64c1",
+      "name": "ATmega64C1",
+      "signature": "1E9686",
+      "flashSize": 65536,
+      "flashPageSize": 256,
+      "eepromSize": 2048,
+      "eepromPageSize": 8,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "500800C0"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA400C0"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        63
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        63
+      ],
+      "lockReadCommand": "580000C0",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega64hve2",
+      "name": "ATmega64HVE2",
+      "signature": "1E9610",
+      "flashSize": 65536,
+      "flashPageSize": 128,
+      "eepromSize": 1024,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 4,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "580800F0"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA800F0"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        15
+      ],
+      "fuseProgramMasks": [
+        255,
+        15
+      ],
+      "lockReadCommand": "580000C0",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega64m1",
+      "name": "ATmega64M1",
+      "signature": "1E9684",
+      "flashSize": 65536,
+      "flashPageSize": 256,
+      "eepromSize": 2048,
+      "eepromPageSize": 8,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "500800C0"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA400C0"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        63
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        63
+      ],
+      "lockReadCommand": "580000C0",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega64rfr2",
+      "name": "ATmega64RFR2",
+      "signature": "1EA602",
+      "flashSize": 65536,
+      "flashPageSize": 256,
+      "eepromSize": 2048,
+      "eepromPageSize": 8,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 13,
+      "chipEraseDelayMs": 19,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega8",
+      "name": "ATmega8",
+      "signature": "1E9307",
+      "flashSize": 8192,
+      "flashPageSize": 64,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255
+      ],
+      "fuseProgramMasks": [
+        255,
+        255
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega88",
+      "name": "ATmega88",
+      "signature": "1E930A",
+      "flashSize": 8192,
+      "flashPageSize": 64,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega88a",
+      "name": "ATmega88A",
+      "signature": "1E930A",
+      "flashSize": 8192,
+      "flashPageSize": 64,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega88p",
+      "name": "ATmega88P",
+      "signature": "1E930F",
+      "flashSize": 8192,
+      "flashPageSize": 64,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega88pa",
+      "name": "ATmega88PA",
+      "signature": "1E930F",
+      "flashSize": 8192,
+      "flashPageSize": 64,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega88pb",
+      "name": "ATmega88PB",
+      "signature": "1E9316",
+      "flashSize": 8192,
+      "flashPageSize": 64,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 11,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        7
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        7
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega8a",
+      "name": "ATmega8A",
+      "signature": "1E9307",
+      "flashSize": 8192,
+      "flashPageSize": 64,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255
+      ],
+      "fuseProgramMasks": [
+        255,
+        255
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmega8hva",
+      "name": "ATmega8HVA",
+      "signature": "1E9310",
+      "flashSize": 8192,
+      "flashPageSize": 128,
+      "eepromSize": 256,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 4,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255
+      ],
+      "fuseProgramMasks": [
+        255
+      ],
+      "lockReadCommand": "580000FC",
+      "lockWriteCommand": "ACE000FC",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 3
+    },
+    {
+      "id": "atmega8u2",
+      "name": "ATmega8U2",
+      "signature": "1E9389",
+      "flashSize": 8192,
+      "flashPageSize": 128,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 9,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        15
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        15
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmegas128",
+      "name": "ATmegaS128",
+      "signature": "1E9702",
+      "flashSize": 131072,
+      "flashPageSize": 256,
+      "eepromSize": 4096,
+      "eepromPageSize": 8,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 10,
+      "chipEraseDelayMs": 10,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        3
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        3
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "atmegas64m1",
+      "name": "ATmegaS64M1",
+      "signature": "1E9684",
+      "flashSize": 65536,
+      "flashPageSize": 256,
+      "eepromSize": 2048,
+      "eepromPageSize": 8,
+      "flashWriteDelayMs": 3,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 11,
+      "fuseWriteDelayMs": 3,
+      "lockWriteDelayMs": 3,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "500800C0"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA400C0"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        63
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        63
+      ],
+      "lockReadCommand": "580000C0",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "attiny13",
+      "name": "ATtiny13",
+      "signature": "1E9007",
+      "flashSize": 1024,
+      "flashPageSize": 32,
+      "eepromSize": 64,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 4,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        31
+      ],
+      "fuseProgramMasks": [
+        255,
+        31
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 3
+    },
+    {
+      "id": "attiny13a",
+      "name": "ATtiny13A",
+      "signature": "1E9007",
+      "flashSize": 1024,
+      "flashPageSize": 32,
+      "eepromSize": 64,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 4,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        31
+      ],
+      "fuseProgramMasks": [
+        255,
+        31
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 3
+    },
+    {
+      "id": "attiny1634",
+      "name": "ATtiny1634",
+      "signature": "1E9412",
+      "flashSize": 16384,
+      "flashPageSize": 32,
+      "eepromSize": 256,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        223,
+        255,
+        31
+      ],
+      "fuseProgramMasks": [
+        223,
+        255,
+        31
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000FC",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 3
+    },
+    {
+      "id": "attiny1634r",
+      "name": "ATtiny1634R",
+      "signature": "1E9412",
+      "flashSize": 16384,
+      "flashPageSize": 32,
+      "eepromSize": 256,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        223,
+        255,
+        31
+      ],
+      "fuseProgramMasks": [
+        223,
+        255,
+        31
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000FC",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 3
+    },
+    {
+      "id": "attiny167",
+      "name": "ATtiny167",
+      "signature": "1E9487",
+      "flashSize": 16384,
+      "flashPageSize": 128,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 5,
+      "chipEraseDelayMs": 15,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        1
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        1
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE00000",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 3
+    },
+    {
+      "id": "attiny2313",
+      "name": "ATtiny2313",
+      "signature": "1E910A",
+      "flashSize": 2048,
+      "flashPageSize": 32,
+      "eepromSize": 128,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 5,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        1
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        1
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 3
+    },
+    {
+      "id": "attiny2313a",
+      "name": "ATtiny2313A",
+      "signature": "1E910A",
+      "flashSize": 2048,
+      "flashPageSize": 32,
+      "eepromSize": 128,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 5,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        1
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        1
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 3
+    },
+    {
+      "id": "attiny24",
+      "name": "ATtiny24",
+      "signature": "1E910B",
+      "flashSize": 2048,
+      "flashPageSize": 32,
+      "eepromSize": 128,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 5,
+      "chipEraseDelayMs": 5,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        1
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        1
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE00000",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 3
+    },
+    {
+      "id": "attiny24a",
+      "name": "ATtiny24A",
+      "signature": "1E910B",
+      "flashSize": 2048,
+      "flashPageSize": 32,
+      "eepromSize": 128,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 5,
+      "chipEraseDelayMs": 5,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        1
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        1
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE00000",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 3
+    },
+    {
+      "id": "attiny25",
+      "name": "ATtiny25",
+      "signature": "1E9108",
+      "flashSize": 2048,
+      "flashPageSize": 32,
+      "eepromSize": 128,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 5,
+      "chipEraseDelayMs": 5,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        1
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        1
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 3
+    },
+    {
+      "id": "attiny261",
+      "name": "ATtiny261",
+      "signature": "1E910C",
+      "flashSize": 2048,
+      "flashPageSize": 32,
+      "eepromSize": 128,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 4,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        1
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        1
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACFC0000",
+      "lockReadPosition": 3,
+      "lockWritePosition": 1,
+      "lockProgramMask": 3
+    },
+    {
+      "id": "attiny261a",
+      "name": "ATtiny261A",
+      "signature": "1E910C",
+      "flashSize": 2048,
+      "flashPageSize": 32,
+      "eepromSize": 128,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 4,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        1
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        1
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACFC0000",
+      "lockReadPosition": 3,
+      "lockWritePosition": 1,
+      "lockProgramMask": 3
+    },
+    {
+      "id": "attiny4313",
+      "name": "ATtiny4313",
+      "signature": "1E920D",
+      "flashSize": 4096,
+      "flashPageSize": 64,
+      "eepromSize": 256,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 5,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        1
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        1
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 3
+    },
+    {
+      "id": "attiny43u",
+      "name": "ATtiny43U",
+      "signature": "1E920C",
+      "flashSize": 4096,
+      "flashPageSize": 64,
+      "eepromSize": 64,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 5,
+      "chipEraseDelayMs": 1,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        1
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        1
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 3
+    },
+    {
+      "id": "attiny44",
+      "name": "ATtiny44",
+      "signature": "1E9207",
+      "flashSize": 4096,
+      "flashPageSize": 64,
+      "eepromSize": 256,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 5,
+      "chipEraseDelayMs": 5,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        1
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        1
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE00000",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 3
+    },
+    {
+      "id": "attiny441",
+      "name": "ATtiny441",
+      "signature": "1E9215",
+      "flashSize": 4096,
+      "flashPageSize": 16,
+      "eepromSize": 256,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 5,
+      "chipEraseDelayMs": 5,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        223,
+        255,
+        255
+      ],
+      "fuseProgramMasks": [
+        223,
+        255,
+        255
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE00000",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 3
+    },
+    {
+      "id": "attiny44a",
+      "name": "ATtiny44A",
+      "signature": "1E9207",
+      "flashSize": 4096,
+      "flashPageSize": 64,
+      "eepromSize": 256,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 5,
+      "chipEraseDelayMs": 5,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        1
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        1
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE00000",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 3
+    },
+    {
+      "id": "attiny45",
+      "name": "ATtiny45",
+      "signature": "1E9206",
+      "flashSize": 4096,
+      "flashPageSize": 64,
+      "eepromSize": 256,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 5,
+      "chipEraseDelayMs": 5,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        1
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        1
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 3
+    },
+    {
+      "id": "attiny461",
+      "name": "ATtiny461",
+      "signature": "1E9208",
+      "flashSize": 4096,
+      "flashPageSize": 64,
+      "eepromSize": 256,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 4,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        1
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        1
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACFC0000",
+      "lockReadPosition": 3,
+      "lockWritePosition": 1,
+      "lockProgramMask": 3
+    },
+    {
+      "id": "attiny461a",
+      "name": "ATtiny461A",
+      "signature": "1E9208",
+      "flashSize": 4096,
+      "flashPageSize": 64,
+      "eepromSize": 256,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 4,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        1
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        1
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACFC0000",
+      "lockReadPosition": 3,
+      "lockWritePosition": 1,
+      "lockProgramMask": 3
+    },
+    {
+      "id": "attiny48",
+      "name": "ATtiny48",
+      "signature": "1E9209",
+      "flashSize": 4096,
+      "flashPageSize": 64,
+      "eepromSize": 64,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 15,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA400FE"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        1
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        1
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 3
+    },
+    {
+      "id": "attiny828",
+      "name": "ATtiny828",
+      "signature": "1E9314",
+      "flashSize": 8192,
+      "flashPageSize": 64,
+      "eepromSize": 256,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 15,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        243,
+        255
+      ],
+      "fuseProgramMasks": [
+        243,
+        255
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "attiny828r",
+      "name": "ATtiny828R",
+      "signature": "1E9314",
+      "flashSize": 8192,
+      "flashPageSize": 64,
+      "eepromSize": 256,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 15,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        243,
+        255
+      ],
+      "fuseProgramMasks": [
+        243,
+        255
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 63
+    },
+    {
+      "id": "attiny84",
+      "name": "ATtiny84",
+      "signature": "1E930C",
+      "flashSize": 8192,
+      "flashPageSize": 64,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 5,
+      "chipEraseDelayMs": 5,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        1
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        1
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE00000",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 3
+    },
+    {
+      "id": "attiny841",
+      "name": "ATtiny841",
+      "signature": "1E9315",
+      "flashSize": 8192,
+      "flashPageSize": 16,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 5,
+      "chipEraseDelayMs": 5,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        223,
+        255,
+        255
+      ],
+      "fuseProgramMasks": [
+        223,
+        255,
+        255
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE00000",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 3
+    },
+    {
+      "id": "attiny84a",
+      "name": "ATtiny84A",
+      "signature": "1E930C",
+      "flashSize": 8192,
+      "flashPageSize": 64,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 5,
+      "chipEraseDelayMs": 5,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        1
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        1
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE00000",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 3
+    },
+    {
+      "id": "attiny85",
+      "name": "ATtiny85",
+      "signature": "1E930B",
+      "flashSize": 8192,
+      "flashPageSize": 64,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 5,
+      "chipEraseDelayMs": 5,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        1
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        1
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 3
+    },
+    {
+      "id": "attiny861",
+      "name": "ATtiny861",
+      "signature": "1E930D",
+      "flashSize": 8192,
+      "flashPageSize": 64,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 4,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        1
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        1
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACFC0000",
+      "lockReadPosition": 3,
+      "lockWritePosition": 1,
+      "lockProgramMask": 3
+    },
+    {
+      "id": "attiny861a",
+      "name": "ATtiny861A",
+      "signature": "1E930D",
+      "flashSize": 8192,
+      "flashPageSize": 64,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 4,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        1
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        1
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACFC0000",
+      "lockReadPosition": 3,
+      "lockWritePosition": 1,
+      "lockProgramMask": 3
+    },
+    {
+      "id": "attiny87",
+      "name": "ATtiny87",
+      "signature": "1E9387",
+      "flashSize": 8192,
+      "flashPageSize": 128,
+      "eepromSize": 512,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 5,
+      "chipEraseDelayMs": 15,
+      "fuseWriteDelayMs": 9,
+      "lockWriteDelayMs": 9,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        1
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        1
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE00000",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 3
+    },
+    {
+      "id": "attiny88",
+      "name": "ATtiny88",
+      "signature": "1E9311",
+      "flashSize": 8192,
+      "flashPageSize": 64,
+      "eepromSize": 64,
+      "eepromPageSize": 4,
+      "flashWriteDelayMs": 5,
+      "eepromWriteDelayMs": 4,
+      "chipEraseDelayMs": 9,
+      "fuseWriteDelayMs": 5,
+      "lockWriteDelayMs": 5,
+      "resetDelayMs": 100,
+      "fuseReadCommands": [
+        "50000000",
+        "58080000",
+        "50080000"
+      ],
+      "fuseWriteCommands": [
+        "ACA00000",
+        "ACA80000",
+        "ACA40000"
+      ],
+      "fuseReadPosition": 3,
+      "fuseWritePosition": 3,
+      "fuseReadMasks": [
+        255,
+        255,
+        1
+      ],
+      "fuseProgramMasks": [
+        255,
+        255,
+        1
+      ],
+      "lockReadCommand": "58000000",
+      "lockWriteCommand": "ACE000C0",
+      "lockReadPosition": 3,
+      "lockWritePosition": 3,
+      "lockProgramMask": 3
+    }
+  ]
+}
