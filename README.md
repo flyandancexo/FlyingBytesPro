@@ -93,15 +93,19 @@ This is especially useful when comparing programming speeds, checking slow-SCK b
 
 ## GUI and CLI — use whichever fits the job
 
+<img src="img/FlyingBytesPro_CLI.png" alt="FlyingBytesPro CLI" width="494" align="right">
+
 **FlyingBytesPro.exe** provides the complete graphical programmer, memory editor, fuse/lock tools, task workflow, projects, and logs.
 
-**FlyingBytesProCLI.exe** provides an AVRDUDE-style direct USBasp command line using the same native programming backend. It is useful for scripts, repeatable command-line workflows, build systems, and users who want the same device database and programming engine without opening the GUI.
+**FlyingBytesProCLI.exe** provides an AVRDUDE-style direct USBasp command line using the same native programming backend. It is useful for scripts, repeatable command-line workflows, build systems, and users who want the same device database and programming engine without opening the GUI. It's the most basic, but speed tested on my USBasp mod is decent. The simplicity of FlyingBytesProCLI.exe makes it a lot easier to understand USBasp protocol. 
 
 Both interfaces talk to USBasp through libusb directly.
 
+<br clear="left">
+
 ## USBasp Driver — install WinUSB directly from FlyingBytesPro
 
-<img src="img/FlyingBytesPro_USB_Driver.png" alt="FlyingBytesPro USBasp Driver Installation" width="500" align="right">
+<img src="img/FlyingBytesPro_USB_Driver.png" alt="FlyingBytesPro USBasp Driver Installation" width="500" align="left">
 
 The **USBasp Driver** feature adds a built-in Windows driver installer under **Settings > Install Driver > USBasp**. It detects supported USBasp devices and installs the Microsoft **WinUSB** driver directly from FlyingBytesPro, so a separate driver utility is not needed for normal setup.
 
