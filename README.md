@@ -1,6 +1,6 @@
 <!-- Copyright (C) 2026 Flyandance JZ - GPL-3.0-or-later -->
 
-# FlyingBytesPro V3.2.29
+# FlyingBytesPro
 
 ### A full-featured programmer for classic AVR — visual, fast, and built for real hardware work.
 
